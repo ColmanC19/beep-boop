@@ -1,5 +1,6 @@
 #result{
   display: none;
+    color: #b3ff1a;
 }
 .btn :hover {
   background-color: #b3ff1a;
@@ -8,7 +9,7 @@
 .btn {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  
+
 }
 
 body{
