@@ -1,6 +1,8 @@
 # beep-boop
 week three independent project as part of class for epicodus.
 Beep-Boop
+
+
 Week 3 project for Epicodus working on Arrays and Looping. 11.1.2019
 By Colman Currie
 Third independent project I completed for Epicodus.
