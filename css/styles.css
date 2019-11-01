@@ -2,12 +2,13 @@
   display: none;
 }
 .btn :hover {
-  background-color: pink;
+  background-color: #b3ff1a;
   color: white;
 }
 .btn {
-  -webkit-transition-duration: 0.4s; 
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  
 }
 
 body{
