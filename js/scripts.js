@@ -15,15 +15,11 @@ var aResult = function(number) {
     } else if (iString>= 1) {
       result.push(" " + i);
     } else if(isNaN()) {
-      alert("Please enter your name and a number greater than zero, ya jabronie");
-
     }
   }
   return result;
 }
-
 // business logic
-
 $(document).ready(function() {
     $("form#BeepBoop").submit(function(event) {
         event.preventDefault();
@@ -34,6 +30,5 @@ $(document).ready(function() {
         $("#number").val(" ");
         $("#output").text(result);
         $("#result").show();
-
     });
 });
