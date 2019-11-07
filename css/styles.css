@@ -15,10 +15,10 @@
 }
 
 body{
-background-color: gray;
+background-color: #003366;
 }
 .jumbotron {
-  color: #b3ff1a;
+  color: #003366;
   font-weight: bolder;
 }
 .form-group {
