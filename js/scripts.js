@@ -27,6 +27,8 @@ $(document).ready(function() {
 
         var number = $("#number").val();
         var result = aResult(number);
+        $("#text").val(" ");
+        $("#number").val(" ");
         $("#output").text(result);
         $("#result").show();
 

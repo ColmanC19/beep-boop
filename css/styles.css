@@ -1,6 +1,7 @@
 #result{
   display: none;
     color: #b3ff1a;
+    font-size: 20px;
 }
 .btn :hover {
   background-color: #b3ff1a;
@@ -9,6 +10,7 @@
 .btn {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+
 
 }
 
@@ -22,4 +24,9 @@ h1 {
 .form-group {
   color: #b3ff1a;
   font-weight: bolder;
+  font-size: 25px;
+}
+.jumbotron{
+  background-color: gray;
+  text-align: center;
 }
