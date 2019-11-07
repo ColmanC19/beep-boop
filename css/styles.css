@@ -4,12 +4,14 @@
     font-size: 20px;
 }
 .btn :hover {
-  background-color: #b3ff1a;
-  color: white;
+  background-color: black;
+  color: #b3ff1a;
+  border: 4px solid #b3ff1a;
 }
 .btn {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  font-size: 25px;
 }
 
 body{
@@ -27,4 +29,7 @@ background-color: gray;
 .jumbotron{
   background-color: gray;
   text-align: center;
+}
+#number {
+align-self: center;
 }
