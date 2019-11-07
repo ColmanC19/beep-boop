@@ -12,8 +12,11 @@ var aResult = function(number) {
       result.push("Boop!");
     } else if (iString.includes("1")) {
       result.push("Beep!");
-    } else {
+    } else if (iString>= 1) {
       result.push(" " + i);
+    } else if(isNaN()) {
+      alert("Please enter your name and a number greater than zero, ya jabronie");
+
     }
   }
   return result;
