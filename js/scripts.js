@@ -6,15 +6,17 @@ var aResult = function(number) {
   for (i = 0; i <= number; i++){
     var iString = i.toString();
     var name = $("#text").val();
+    var nameU = name.toUpperCase();
     if (iString.includes("3")) {
-      result.push("I'm sorry " + name + ", I'm afraid I can't do that!");
+      result.push("I'm sorry " + nameU + ", I'm afraid I can't do that!");
     } else if (iString.includes("2")) {
       result.push("Boop!");
     } else if (iString.includes("1")) {
       result.push("Beep!");
     } else if (iString>= 1) {
       result.push(" " + i);
-    } else if(isNaN()) {
+    } else if(isNaN(number)) {
+      alert("Please enter a number greater than 0")
     }
   }
   return result;
@@ -23,7 +25,7 @@ var aResult = function(number) {
 $(document).ready(function() {
     $("form#BeepBoop").submit(function(event) {
         event.preventDefault();
-
+        $("#text").val();
         var number = $("#number").val();
         var result = aResult(number);
         $("#text").val(" ");
