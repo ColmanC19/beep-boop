@@ -2,10 +2,10 @@
 //  user logic
 
 var aResult = function(number, name) {
+  var nameU = name.toUpperCase();
   var result = [];
   for (i = 0; i <= number; i++){
     var iString = i.toString();
-    var nameU = name.toUpperCase();
     if (iString.includes("3")) {
       result.push("I'm sorry " + nameU + ", I'm afraid I can't do that!");
     } else if (iString.includes("2")) {
