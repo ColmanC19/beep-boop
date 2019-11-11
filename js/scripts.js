@@ -15,8 +15,6 @@ var aResult = function(number) {
       result.push("Beep!");
     } else if (iString>= 1) {
       result.push(" " + i);
-    } else if(isNaN(number)) {
-      alert("Please enter a number greater than 0")
     }
   }
   return result;
@@ -27,6 +25,10 @@ $(document).ready(function() {
         event.preventDefault();
         $("#text").val();
         var number = $("#number").val();
+        console.log(number);
+        if (number === "") {
+          alert("Please enter a number greater than 0")
+        }
         var result = aResult(number);
         $("#text").val(" ");
         $("#number").val(" ");
