@@ -1,7 +1,7 @@
 #result{
   display: none;
     color: #b3ff1a;
-    font-size: 20px;
+    font-size: 25px;
 }
 .btn :hover {
   background-color: black;
@@ -11,14 +11,14 @@
 .btn {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 body{
-background-color: gray;
+background-color: #003366;
 }
 .jumbotron {
-  color: #b3ff1a;
+  color: #003366;
   font-weight: bolder;
 }
 .form-group {
