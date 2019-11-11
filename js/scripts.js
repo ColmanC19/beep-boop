@@ -22,7 +22,6 @@ var aResult = function(number, name) {
 $(document).ready(function() {
     $("form#BeepBoop").submit(function(event) {
         event.preventDefault();
-        $("#text").val();
         var name = $("#text").val();
         if (name === "") {
           alert("Please enter a name, john Doe");
